@@ -18,11 +18,11 @@ const Card = () => {
            <>
            <div key={index} className='w-[400px] bg-white rounded-lg flex flex-col justify-between'>
            <div  className="">
-            <img className='w-[400px] h-40 rounded-lg object-cover' src={item.background} alt="" />
+            <img className='w-[400px] h-40 rounded-lg object-cover' src={item.background } alt="" />
            </div>
          
           <div className=''>
-            <img className='w-[120px] h-[120px] rounded-full mt-[-50px] mx-auto object-cover' src={item.profileImage} alt="" />
+            <img className='w-[120px] h-[120px] rounded-full mt-[-50px] mx-auto object-cover' src={item.profileImage || item.AlternateImg} />
            </div>
           
            <div className='w-full text-center'>
