@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router"
 import Card from "./Components/Cards/Cards"
-import Error from "./pages/error"
+import Error from "./pages/Error"
 import Page from "./pages/Page"
 
 function App() {
